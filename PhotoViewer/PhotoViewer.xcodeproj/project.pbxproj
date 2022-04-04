@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CAD017527FA8EF10016F0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD017427FA8EF10016F0A7 /* AppDelegate.swift */; };
-		1CAD017727FA8EF10016F0A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD017627FA8EF10016F0A7 /* SceneDelegate.swift */; };
-		1CAD017927FA8EF10016F0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD017827FA8EF10016F0A7 /* ViewController.swift */; };
-		1CAD017C27FA8EF10016F0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD017A27FA8EF10016F0A7 /* Main.storyboard */; };
-		1CAD017E27FA8EF30016F0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD017D27FA8EF30016F0A7 /* Assets.xcassets */; };
-		1CAD018127FA8EF30016F0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD017F27FA8EF30016F0A7 /* LaunchScreen.storyboard */; };
+		1CAD019527FA94540016F0A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD019427FA94540016F0A7 /* AppDelegate.swift */; };
+		1CAD019927FA94540016F0A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD019827FA94540016F0A7 /* ViewController.swift */; };
+		1CAD019C27FA94540016F0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD019A27FA94540016F0A7 /* Main.storyboard */; };
+		1CAD019E27FA94560016F0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD019D27FA94560016F0A7 /* Assets.xcassets */; };
+		1CAD01A127FA94560016F0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD019F27FA94560016F0A7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CAD017127FA8EF10016F0A7 /* PhotoWidgetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWidgetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CAD017427FA8EF10016F0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CAD017627FA8EF10016F0A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CAD017827FA8EF10016F0A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CAD017B27FA8EF10016F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CAD017D27FA8EF30016F0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CAD018027FA8EF30016F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1CAD018227FA8EF30016F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAD019127FA94540016F0A7 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAD019427FA94540016F0A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CAD019827FA94540016F0A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CAD019B27FA94540016F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CAD019D27FA94560016F0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAD01A027FA94560016F0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CAD01A227FA94560016F0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CAD016E27FA8EF10016F0A7 /* Frameworks */ = {
+		1CAD018E27FA94540016F0A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CAD016827FA8EF10016F0A7 = {
+		1CAD018827FA94540016F0A7 = {
 			isa = PBXGroup;
 			children = (
-				1CAD017327FA8EF10016F0A7 /* PhotoWidgetProject */,
-				1CAD017227FA8EF10016F0A7 /* Products */,
+				1CAD019327FA94540016F0A7 /* PhotoViewer */,
+				1CAD019227FA94540016F0A7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1CAD017227FA8EF10016F0A7 /* Products */ = {
+		1CAD019227FA94540016F0A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CAD017127FA8EF10016F0A7 /* PhotoWidgetProject.app */,
+				1CAD019127FA94540016F0A7 /* PhotoViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CAD017327FA8EF10016F0A7 /* PhotoWidgetProject */ = {
+		1CAD019327FA94540016F0A7 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
-				1CAD017427FA8EF10016F0A7 /* AppDelegate.swift */,
-				1CAD017627FA8EF10016F0A7 /* SceneDelegate.swift */,
-				1CAD017827FA8EF10016F0A7 /* ViewController.swift */,
-				1CAD017A27FA8EF10016F0A7 /* Main.storyboard */,
-				1CAD017D27FA8EF30016F0A7 /* Assets.xcassets */,
-				1CAD017F27FA8EF30016F0A7 /* LaunchScreen.storyboard */,
-				1CAD018227FA8EF30016F0A7 /* Info.plist */,
+				1CAD019427FA94540016F0A7 /* AppDelegate.swift */,
+				1CAD019827FA94540016F0A7 /* ViewController.swift */,
+				1CAD019A27FA94540016F0A7 /* Main.storyboard */,
+				1CAD019D27FA94560016F0A7 /* Assets.xcassets */,
+				1CAD019F27FA94560016F0A7 /* LaunchScreen.storyboard */,
+				1CAD01A227FA94560016F0A7 /* Info.plist */,
 			);
-			path = PhotoWidgetProject;
+			path = PhotoViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CAD017027FA8EF10016F0A7 /* PhotoWidgetProject */ = {
+		1CAD019027FA94540016F0A7 /* PhotoViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CAD018527FA8EF30016F0A7 /* Build configuration list for PBXNativeTarget "PhotoWidgetProject" */;
+			buildConfigurationList = 1CAD01A527FA94560016F0A7 /* Build configuration list for PBXNativeTarget "PhotoViewer" */;
 			buildPhases = (
-				1CAD016D27FA8EF10016F0A7 /* Sources */,
-				1CAD016E27FA8EF10016F0A7 /* Frameworks */,
-				1CAD016F27FA8EF10016F0A7 /* Resources */,
+				1CAD018D27FA94540016F0A7 /* Sources */,
+				1CAD018E27FA94540016F0A7 /* Frameworks */,
+				1CAD018F27FA94540016F0A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoWidgetProject;
-			productName = PhotoWidgetProject;
-			productReference = 1CAD017127FA8EF10016F0A7 /* PhotoWidgetProject.app */;
+			name = PhotoViewer;
+			productName = PhotoViewer;
+			productReference = 1CAD019127FA94540016F0A7 /* PhotoViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1CAD016927FA8EF10016F0A7 /* Project object */ = {
+		1CAD018927FA94540016F0A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					1CAD017027FA8EF10016F0A7 = {
+					1CAD019027FA94540016F0A7 = {
 						CreatedOnToolsVersion = 13.2;
 					};
 				};
 			};
-			buildConfigurationList = 1CAD016C27FA8EF10016F0A7 /* Build configuration list for PBXProject "PhotoWidgetProject" */;
+			buildConfigurationList = 1CAD018C27FA94540016F0A7 /* Build configuration list for PBXProject "PhotoViewer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 1CAD016827FA8EF10016F0A7;
-			productRefGroup = 1CAD017227FA8EF10016F0A7 /* Products */;
+			mainGroup = 1CAD018827FA94540016F0A7;
+			productRefGroup = 1CAD019227FA94540016F0A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CAD017027FA8EF10016F0A7 /* PhotoWidgetProject */,
+				1CAD019027FA94540016F0A7 /* PhotoViewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1CAD016F27FA8EF10016F0A7 /* Resources */ = {
+		1CAD018F27FA94540016F0A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAD018127FA8EF30016F0A7 /* LaunchScreen.storyboard in Resources */,
-				1CAD017E27FA8EF30016F0A7 /* Assets.xcassets in Resources */,
-				1CAD017C27FA8EF10016F0A7 /* Main.storyboard in Resources */,
+				1CAD01A127FA94560016F0A7 /* LaunchScreen.storyboard in Resources */,
+				1CAD019E27FA94560016F0A7 /* Assets.xcassets in Resources */,
+				1CAD019C27FA94540016F0A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1CAD016D27FA8EF10016F0A7 /* Sources */ = {
+		1CAD018D27FA94540016F0A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAD017927FA8EF10016F0A7 /* ViewController.swift in Sources */,
-				1CAD017527FA8EF10016F0A7 /* AppDelegate.swift in Sources */,
-				1CAD017727FA8EF10016F0A7 /* SceneDelegate.swift in Sources */,
+				1CAD019927FA94540016F0A7 /* ViewController.swift in Sources */,
+				1CAD019527FA94540016F0A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1CAD017A27FA8EF10016F0A7 /* Main.storyboard */ = {
+		1CAD019A27FA94540016F0A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1CAD017B27FA8EF10016F0A7 /* Base */,
+				1CAD019B27FA94540016F0A7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1CAD017F27FA8EF30016F0A7 /* LaunchScreen.storyboard */ = {
+		1CAD019F27FA94560016F0A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1CAD018027FA8EF30016F0A7 /* Base */,
+				1CAD01A027FA94560016F0A7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1CAD018327FA8EF30016F0A7 /* Debug */ = {
+		1CAD01A327FA94560016F0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		1CAD018427FA8EF30016F0A7 /* Release */ = {
+		1CAD01A427FA94560016F0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +278,7 @@
 			};
 			name = Release;
 		};
-		1CAD018627FA8EF30016F0A7 /* Debug */ = {
+		1CAD01A627FA94560016F0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +287,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9P6WAX9VN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoWidgetProject/Info.plist;
+				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.PhotoWidgetProject;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.PhotoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		1CAD018727FA8EF30016F0A7 /* Release */ = {
+		1CAD01A727FA94560016F0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +316,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9P6WAX9VN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoWidgetProject/Info.plist;
+				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.PhotoWidgetProject;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.PhotoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CAD016C27FA8EF10016F0A7 /* Build configuration list for PBXProject "PhotoWidgetProject" */ = {
+		1CAD018C27FA94540016F0A7 /* Build configuration list for PBXProject "PhotoViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CAD018327FA8EF30016F0A7 /* Debug */,
-				1CAD018427FA8EF30016F0A7 /* Release */,
+				1CAD01A327FA94560016F0A7 /* Debug */,
+				1CAD01A427FA94560016F0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CAD018527FA8EF30016F0A7 /* Build configuration list for PBXNativeTarget "PhotoWidgetProject" */ = {
+		1CAD01A527FA94560016F0A7 /* Build configuration list for PBXNativeTarget "PhotoViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CAD018627FA8EF30016F0A7 /* Debug */,
-				1CAD018727FA8EF30016F0A7 /* Release */,
+				1CAD01A627FA94560016F0A7 /* Debug */,
+				1CAD01A727FA94560016F0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1CAD016927FA8EF10016F0A7 /* Project object */;
+	rootObject = 1CAD018927FA94540016F0A7 /* Project object */;
 }

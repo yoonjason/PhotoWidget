@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PhotoWidgetProject
+//  PhotoViewer
 //
 //  Created by Bradley.yoon on 2022/04/04.
 //
